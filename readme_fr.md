@@ -9,19 +9,18 @@
 
 <!-- TOC -->
 
-- [1. Introduction](#1-introduction)
-- [2. Installation](#2-installation)
-  - [2.1. Types d'installation](#21-types-dinstallation)
-  - [2.2. Instructions](#22-instructions)
-- [3. Exemples de fichiers](#3-exemples-de-fichiers)
-- [4. Suppression de **MDeap 2**](#4-suppression-de-MDeap 2)
-- [5. AVIS DE NON-RESPONSABILITÉ et AVERTISSEMENT](#5-avis-de-non-responsabilité-et-avertissement)
-- [6. Remerciement](#6-remerciement)
-- [7. Dernières modifications](#7-dernières-modifications)
+- [1. Installation](#1-installation)
+  - [1.1. Types d'installation](#11-types-dinstallation)
+  - [1.2. Instructions](#12-instructions)
+- [2. Exemples de fichiers](#2-exemples-de-fichiers)
+- [3. Suppression de MDeap 2](#3-suppression-de-mdeap-2)
+- [4. AVIS DE NON-RESPONSABILITÉ et AVERTISSEMENT](#4-avis-de-non-responsabilité-et-avertissement)
+- [5. Remerciement](#5-remerciement)
+- [6. Dernières modifications](#6-dernières-modifications)
 
 <!-- /TOC -->
 
-## 2. Installation
+## 1. Installation
 
 Le programme d'installation de la dernière version de **MDeap 2** est disponible ici. Pour l'obtenir, cliquez sur le lien : [MDeap2Install-2-0-0-1.exe](MDeap2Install-2-0-0-1.exe).
 
@@ -34,7 +33,7 @@ Cliquez ensuite sur l'icône `Download raw file` pour lancer le téléchargement
 | md5   | 7d1fc8f52ce51ae18cbec0c49084a5c3 |
 | sha1  | 9408bb1c994d6d95d0acb8fb3fd693ee9e776e80 |
 
-### 2.1. Types d'installation
+### 1.1. Types d'installation
 
 **MDeap 2** peut être exécuté comme une application Windows « standard » ou comme une application « portable ».
 
@@ -46,7 +45,7 @@ Le plus souvent, un programme portable est installé sur un support amovible tel
 
 Le type d'installation est précisé à la toute fin du processus d'installation.
 
-### 2.2. Instructions
+### 1.2. Instructions
 
 1. Sélectionnez la langue d'installation (anglais ou français). Il s'agit de la langue utilisée par le programme d'installation et n'a rien à voir avec la langue utilisée dans **MDeap 2**.
 
@@ -74,21 +73,32 @@ Le type d'installation est précisé à la toute fin du processus d'installation
 
 Si une installation standard est choisie, l'extension `.wdjson` est associée à **MDeap 2**. Conséquemment, `MDeap2.exe` sera lancé quand un fichier avec cette extension est double-cliqué. Un programme de désinstallation est également installé dans le même dossier que `MDeap2.exe`. Enfin, un élément de menu sera ajouté au menu Démarrer. Si une installation portable est sélectionnée, l'association de fichiers, un élément de menu démarrer et le programme de désinstallation ne sont pas créés.
 
-## 3. Exemples de fichiers
+## 2. Exemples de fichiers
 
 Certains exemples de fichiers de projet sont fournis au format **MDeap 2** (extension `.mdjson`). Ils se trouvent dans un dossier appelé, de manière appropriée, `Exemples`. Dans une installation standard, ce dossier sera contenu dans le sous-dossier `MDeap2` du dossier `Documents` de l'utilisateur. Dans une installation portable, `Exemples` sera dans le dossier contenant `MDeap2.exe`.
 
-## 4. Suppression de **MDeap 2**
+
+## 3. Utilisation de MDeap 2
+
+Le fichier d'aide de **MDeap 2** n'est pas complet. Néanmoins, il ne devrait pas être trop difficile de comprendre comment utiliser ce programme.
+
+L'application fournit une grille semblable à une feuille de calcul pour saisir et modifier des données. L’ensemble des données ou à des sous-ensembles de celui-ci peuvent être analysés selon plusieurs modèles AED. La spécification des modèles est une opération pointer-cliquer. Les résultats d'analyse AED sont présentés dans une série de tableaux qui peuvent facilement être copiés vers d'autres applications. 
+
+Appuyez sur F1 pour obtenir une aide contextuelle, lorsqu'elle est disponible.
+
+**MDeap 2** peut lire les fichiers de projet [**Win4Deap 2**](https://github.com/desliem/Win4Deap) et vice versa.
+
+## 3. Suppression de MDeap 2
 
 Un programme de désinstallation est installé avec `MDeap2.exe` si une installation standard a été effectuée. Si une installation portable a été choisie, il suffit de supprimer manuellement les fichiers installés puisqu'aucune modification n’avait été apportée au système.
 
-## 5. AVIS DE NON-RESPONSABILITÉ et AVERTISSEMENT
+## 4. AVIS DE NON-RESPONSABILITÉ et AVERTISSEMENT
 
 **MDeap 2** est un logiciel gratuit fourni tel quel. L'auteur du programme n'accepte aucune responsabilité pour les dommages qui pourraient être causés par ce logiciel et n'offre aucune garantie, implicite ou implicite, quant à son adéquation à quelque usage que ce soit. L'utilisateur assume tous les risques associés au programme. Veuillez lire l'avis de droit d'auteur et le contrat de licence pour en savoir plus.
 
 **MDeap 2** devrait être considéré comme un logiciel bêta. Sauvegardez les données souvent au format natif `.wdjson` et au format CSV standard.
 
-## 6. Remerciement
+## 5. Remerciement
 
 Tous les modèles de programmation linéaire nécessaires aux calculs DEA sont réalisés par la bibliothèque **lp_solve** (publiée sous licence LGPL 2.1). Elle peut être trouvée sur https://lpsolve.sourceforge.net/.
 
@@ -99,7 +109,7 @@ La plupart des icônes proviennent du jeu d'icônes Silk de Mark James publié s
 L'icône de l'application a été créée avec l'application open source Greenfish Icon Editor Pro : http://greenfishsoftware.org/.
 
 
-## 7. Dernières modifications
+## 6. Dernières modifications
 
 Version 2.0.0.1 Changement du numéro de version à 2 pour correspondre au nom de l'application et correction de nombreux bugs mineurs.
 
