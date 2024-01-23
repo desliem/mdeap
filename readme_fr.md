@@ -13,10 +13,11 @@
   - [1.1. Types d'installation](#11-types-dinstallation)
   - [1.2. Instructions](#12-instructions)
 - [2. Exemples de fichiers](#2-exemples-de-fichiers)
-- [3. Suppression de MDeap 2](#3-suppression-de-mdeap-2)
-- [4. AVIS DE NON-RESPONSABILITÉ et AVERTISSEMENT](#4-avis-de-non-responsabilité-et-avertissement)
-- [5. Remerciement](#5-remerciement)
-- [6. Dernières modifications](#6-dernières-modifications)
+- [3. Utilisation de MDeap 2](#3-utilisation-de-mdeap-2)
+- [4. Suppression de MDeap 2](#4-suppression-de-mdeap-2)
+- [5. AVIS DE NON-RESPONSABILITÉ et AVERTISSEMENT](#5-avis-de-non-responsabilité-et-avertissement)
+- [6. Remerciement](#6-remerciement)
+- [7. Dernières modifications](#7-dernières-modifications)
 
 <!-- /TOC -->
 
@@ -88,17 +89,17 @@ Appuyez sur F1 pour obtenir une aide contextuelle, lorsqu'elle est disponible.
 
 **MDeap 2** peut lire les fichiers de projet [**Win4Deap 2**](https://github.com/desliem/Win4Deap) et vice versa.
 
-## 3. Suppression de MDeap 2
+## 4. Suppression de MDeap 2
 
 Un programme de désinstallation est installé avec `MDeap2.exe` si une installation standard a été effectuée. Si une installation portable a été choisie, il suffit de supprimer manuellement les fichiers installés puisqu'aucune modification n’avait été apportée au système.
 
-## 4. AVIS DE NON-RESPONSABILITÉ et AVERTISSEMENT
+## 5. AVIS DE NON-RESPONSABILITÉ et AVERTISSEMENT
 
 **MDeap 2** est un logiciel gratuit fourni tel quel. L'auteur du programme n'accepte aucune responsabilité pour les dommages qui pourraient être causés par ce logiciel et n'offre aucune garantie, implicite ou implicite, quant à son adéquation à quelque usage que ce soit. L'utilisateur assume tous les risques associés au programme. Veuillez lire l'avis de droit d'auteur et le contrat de licence pour en savoir plus.
 
 **MDeap 2** devrait être considéré comme un logiciel bêta. Sauvegardez les données souvent au format natif `.wdjson` et au format CSV standard.
 
-## 5. Remerciement
+## 6. Remerciement
 
 Tous les modèles de programmation linéaire nécessaires aux calculs DEA sont réalisés par la bibliothèque **lp_solve** (publiée sous licence LGPL 2.1). Elle peut être trouvée sur https://lpsolve.sourceforge.net/.
 
@@ -109,7 +110,7 @@ La plupart des icônes proviennent du jeu d'icônes Silk de Mark James publié s
 L'icône de l'application a été créée avec l'application open source Greenfish Icon Editor Pro : http://greenfishsoftware.org/.
 
 
-## 6. Dernières modifications
+## 7. Dernières modifications
 
 Version 2.0.0.1 Changement du numéro de version à 2 pour correspondre au nom de l'application et correction de nombreux bugs mineurs.
 
