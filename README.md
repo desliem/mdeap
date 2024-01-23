@@ -1,4 +1,6 @@
-# MDeap 2 (version 2.0.0.1)
+# MDeap 
+ 
+Version 2.0.0.1
 
 ## Qu'est-ce ?
 
