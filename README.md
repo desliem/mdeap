@@ -8,4 +8,4 @@ Version 2.0.0.1
 
 ## What Is This?
 
-**MDeap 2**  is a convivial self contained Windows application capable of calculating basic data envelopment models (DEA). Tested on Windows 7, 8 and 10, it should run on all 32-bit and 64-bit versions Windows from XP on. [More...](readme_en.md)
+**MDeap 2**  is a convivial self contained Windows application capable of calculating basic data envelopment models (DEA). Tested on Windows 7, 8 and 10, it should run on all 32-bit and 64-bit versions of Windows from XP on. [More...](readme_en.md)
